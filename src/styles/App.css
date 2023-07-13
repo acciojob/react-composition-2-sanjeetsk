@@ -1,1 +1,12 @@
-
+button{
+    background-color: red;
+    color: #fff;
+    font-size: larger;
+    border:none;
+    border-radius: 5px;
+}
+.model-overlay{
+    padding: 10px;
+    margin: 10px;
+    background-color: aquamarine;
+}
