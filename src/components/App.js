@@ -16,7 +16,7 @@ const App = () => {
        <Modal show={showModal} onClose={handleCloseModal}>
           <div className="modal">
             <h2>Modal Content</h2>
-            <p>This is the content inside the modal.</p>
+            <p>This is the content of the modal.</p>
           </div>
        </Modal>
     </div>
