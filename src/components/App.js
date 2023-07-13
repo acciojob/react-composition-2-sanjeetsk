@@ -14,8 +14,10 @@ const App = () => {
     <div id="main">
        <button onClick={()=>setModalShow(true)}>Open Modal</button>
        <Modal show={showModal} onClose={handleCloseModal}>
-          <h2>Modal Content</h2>
-          <p>This is the content inside the modal.</p>
+          <div className="modal">
+            <h2>Modal Content</h2>
+            <p>This is the content inside the modal.</p>
+          </div>
        </Modal>
     </div>
   )
